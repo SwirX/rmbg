@@ -23,7 +23,8 @@ I'll be making a function to generate a background blur when i figure out how to
 
 ## Getting started
 
-You need the rmbg onnx models i think i'll provide them here.
+You need the [rmbg onnx models](https://github.com/SwirX/rmbg/releases/tag/Models).
+
 
 ## Usage
 ### Intialization (...ig?)
