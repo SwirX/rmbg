@@ -89,7 +89,7 @@ class RMBG {
 
     OrtEnv.instance.init();
     final sessionOptions = OrtSessionOptions();
-    final rawAssetFile = await rootBundle.load("assets/models/rmbg-1.4.onnx");
+    final rawAssetFile = await rootBundle.load(modelPath);
     final bytes = rawAssetFile.buffer.asUint8List();
     final session = OrtSession.fromBuffer(bytes, sessionOptions);
 
